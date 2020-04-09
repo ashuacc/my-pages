@@ -1,0 +1,12 @@
+{
+  "loginWithEmail": "LOGIN_EMAIL",
+  "loginContext": "LOGIN",
+  "connectWithGoogle": "FB_CONNECT",
+  "connectWithFb": "GOOGLE_CONNECT",
+  "tnc1": "NEW_REGISTER_REGISTERHINT1_LABEL",
+  "tnc2": "NEW_REGISTER_REGISTERHINT2_LABEL",
+  "and": "NEW_REGISTER_and_LABEL",
+  "tnc3": "NEW_REGISTER_REGISTERHINT3_LABEL",
+  "tnc4": "NEW_REGISTER_REGISTERHINT4_LABEL",
+  "subDescription": "PULSE_SUB_DESC"
+}

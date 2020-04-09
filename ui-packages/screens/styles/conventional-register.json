@@ -1,0 +1,67 @@
+{
+  "default": {
+    "mainContainer": {
+      "marginLeft": 40, 
+      "marginRight": 40
+    },
+    "container": {
+      "backgroundColor": "#fff",
+      "flex": 1
+    },
+    "registerLabelContainer": { 
+      "marginLeft": 20, 
+      "flex": 1 
+    },
+    "registerLabel": {
+      "color": "#515B61",
+      "fontSize": 12,
+      "fontWeight": "900",
+      "lineHeight": 16,
+      "fontFamily": "Avenir"
+    },
+    "sendCodeBtnRect": {
+      "alignSelf": "center",
+      "marginTop": 24,
+      "height": 40,
+      "width": 260,
+      "borderRadius": 22,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#ED1B2E"
+    },
+    "sendCodeBtnTitle": {
+      "color": "#fff",
+      "fontSize": 16,
+      "fontWeight": "500",
+      "lineHeight": 22,
+      "fontFamily": "Avenir"
+    },
+    "haveAccountContainer": {
+      "marginTop": 20,
+      "flex": 0.6,
+      "justifyContent": "center",
+      "flexDirection": "row"
+    },
+    "newText": {
+      "lineHeight": 15.6,
+      "textAlign": "left",
+      "color": "#707070",
+      "justifyContent": "center"
+    },
+    "newRegistrationPosition": { 
+      "top": 20, 
+      "left": 0, 
+      "bottom": 20, 
+      "right": 0
+    },
+    "headerButton": {
+      "justifyContent": "center",
+      "marginLeft": 2
+    },
+    "regBtnTextStyle": {
+      "alignSelf": "flex-start",
+      "borderBottomWidth": 1,
+      "borderColor": "#6b6a6d"
+    }
+  }
+}

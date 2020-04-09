@@ -1,0 +1,29 @@
+{
+  "default": {
+    "forgotPasswordText": {
+      "fontSize": 16,
+      "color": "red",
+      "textAlign": "left"
+    },
+    "fullWidth": {
+      "width": "100%"
+    },
+    "subContainer2": {
+      "marginTop": 20,
+      "paddingHorizontal": 40
+    },
+    "loginBtnContainer": {
+      "margin": 10,
+      "justifyContent": "center",
+      "alignItems": "center"
+    },
+    "loginBtn": {
+      "justifyContent": "center",
+      "alignItems": "center",
+      "height": 44,
+      "width": 180,
+      "borderRadius": 22,
+      "backgroundColor": "#ED1B2E"
+    }
+  }
+}

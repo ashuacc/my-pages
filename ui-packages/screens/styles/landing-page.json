@@ -1,0 +1,91 @@
+{
+  "default": {
+    "loginMail": {
+      "width": "99%",
+      "height": 44,
+      "flexDirection": "row",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "backgroundColor": "#d00016",
+      "color": "#000",
+      "marginBottom": 12,
+      "borderRadius": 22,
+      "borderColor": "#d00016",
+      "paddingRight": 6,
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 1 },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 1,
+      "elevation": 1,
+      "marginLeft": 5
+    },
+    
+    "mailLoginText": {
+      "fontSize": 14,
+      "lineHeight": 16,
+      "letterSpacing": 1.12,
+      "fontFamily": "pru-bold",
+      "color": "#ffffff"
+    },
+
+    "iconMailLogo": {
+      "height": 30,
+      "width": 30,
+      "marginRight": 13
+    },
+
+    "loginBtnsContainer": { "padding": 10, "alignItems": "center" },
+
+    "disclaimer": {
+      "alignItems": "center",
+      "marginVertical": 20,
+      "width": "100%"
+    },
+    "disclaimerFont": {
+      "fontSize": 16,
+      "textAlign": "center"
+    },
+    "disclaimerPadding": {
+      "marginVertical": 10,
+      "width": "85%"
+    },
+
+    "tncPrivacyContainer": {
+      "flexDirection": "row", 
+      "flexWrap": "wrap", 
+      "marginTop": 15, 
+      "paddingLeft": 16, 
+      "paddingRight": 8
+    },
+    "tncPrivacyTextSpacing": {"paddingRight": 5},
+    "tncPrivacyTextStyle": {
+      "color": "#222529",
+      "fontFamily": "Avenir",
+      "fontSize": 12,
+      "lineHeight": 16
+    },
+    "tncPrivacyTextStyleWithUl": {
+      "color": "#222529",
+      "fontFamily": "Avenir",
+      "fontSize": 12,
+      "lineHeight": 16,
+      "textDecorationLine": "underline"
+    },
+    "aboutImg": { "resizeMode": "contain", "width": 170, "height": 110 },
+
+    "container": {
+      "flex": 1,
+      "justifyContent": "space-between"
+    },
+
+    "subDescription": { "fontSize": 24, "textAlign": "center" },
+    "aboutContainer": { "marginTop": 40, "alignItems": "center" },
+    "langHeader": {
+      "flexDirection": "row",
+      "justifyContent": "flex-end"
+    },
+    "langStyle": {
+      "fontSize": 20
+    }
+  }
+}
