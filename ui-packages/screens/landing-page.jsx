@@ -20,28 +20,28 @@
               style={styles.aboutImg}
               source={{ uri: contents.about }}
             />
-            <Text style={styles.subDescription}>{langStr(labels.subDescription)}</Text>
+            <Text style={styles.subDescription}>{langStr("PULSE_SUB_DESC")}</Text>
           </View>
 
           <View style={styles.disclaimer}>
             <View style={styles.disclaimerPadding}>
               <View style={styles.tncPrivacyContainer}>
-                <Text style={styles.tncPrivacyTextStyle}>{langStr(labels.tnc1)}</Text>
+                <Text style={styles.tncPrivacyTextStyle}>{langStr("NEW_REGISTER_REGISTERHINT1_LABEL")}</Text>
                 <TouchableOpacity
                   style={styles.tncPrivacyTextSpacing}
                   onPress={goToTnC}>
-                  <Text style={styles.tncPrivacyTextStyleWithUl}>{langStr(labels.tnc2)}</Text>
+                  <Text style={styles.tncPrivacyTextStyleWithUl}>{langStr("NEW_REGISTER_REGISTERHINT2_LABEL")}</Text>
                 </TouchableOpacity>
                 <View style={styles.tncPrivacyTextSpacing}>
-                  <Text style={styles.tncPrivacyTextStyle}>{langStr(labels.and)}</Text>
+                  <Text style={styles.tncPrivacyTextStyle}>{langStr("NEW_REGISTER_and_LABEL")}</Text>
                 </View>
                 <TouchableOpacity
                   style={styles.tncPrivacyTextSpacing}
                   onPress={goToPrivacy}>
-                  <Text style={styles.tncPrivacyTextStyleWithUl}>{langStr(labels.tnc3)}</Text>
+                  <Text style={styles.tncPrivacyTextStyleWithUl}>{langStr("NEW_REGISTER_REGISTERHINT3_LABEL")}</Text>
                 </TouchableOpacity>
                 <View style={styles.tncPrivacyTextSpacing}>
-                  <Text style={styles.tncPrivacyTextStyle}>{langStr(labels.tnc4)}</Text>
+                  <Text style={styles.tncPrivacyTextStyle}>{langStr("NEW_REGISTER_REGISTERHINT4_LABEL")}</Text>
                 </View>
               </View>
             </View>
@@ -49,14 +49,14 @@
             <View>
               <View style={styles.loginBtnsContainer}>
                 <SocialLogin
-                  context={labels.loginContext}
-                  fbText={langStr(labels.connectWithFb)}
-                  {...this.props}
+                  context={"LOGIN"}
+                  fbText={langStr("FB_CONNECT")}
+                  {...props}
                 />
                 <SocialLogin
-                  context={labels.loginContext}
-                  gmailText={langStr(labels.connectWithGoogle)}
-                  {...this.props}
+                  context={"LOGIN"}
+                  gmailText={langStr("GOOGLE_CONNECT")}
+                  {...props}
                   isGoogle
                 />
                 <TouchableOpacity
@@ -68,7 +68,7 @@
                     style={styles.iconMailLogo}
                     source={{ uri: contents.mail }}
                   />
-                  <Text style={styles.mailLoginText}>{langStr(labels.loginWithEmail)}</Text>
+                  <Text style={styles.mailLoginText}>{langStr("LOGIN_EMAIL")}</Text>
                 </TouchableOpacity>
               </View>
             </View>
