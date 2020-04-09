@@ -1,8 +1,8 @@
 {
   "name": "OnePulse",
-  "rootUrl": "http://10.0.2.2:8887/ui-packages",
+  "rootUrl": "https://ashuacc.github.io/my-pages/ui-packages",
   "platformUrl": "ws://10.0.2.2:8889/ws",
-  "cmsRootUrl": "http://10.0.2.2:8887/ui-packages/resources",
+  "cmsRootUrl": "https://ashuacc.github.io/my-pages/ui-packages/resources",
   "theme": "default",
   "version": "1.0"
 }
